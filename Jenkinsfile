@@ -12,7 +12,7 @@ pipeline {
 			}
 			steps {
 				echo 'building the applicaiton...'
-                echo "building version ${env.GIT_BRANCH }"
+                echo "building version ${env.GIT_BRANCH } at version ${env.NEW_VERSION}"
 
 			}
 		}
